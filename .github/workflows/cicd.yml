@@ -30,7 +30,7 @@ jobs:
       - name: Download Artifact from build job
         uses: actions/download-artifact@v2
         with:
-          name: user-mgmt-0.0.1-SNAPSHOT.jar
+          name: user-mgmt
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
