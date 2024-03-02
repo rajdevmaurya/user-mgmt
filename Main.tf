@@ -8,7 +8,7 @@ provider "azurerm" {
           version = "3.72.0"
         }
       }
-}
+    }
 # Terraform backend configuration block -precreated
 terraform {
   backend "azurerm" {
