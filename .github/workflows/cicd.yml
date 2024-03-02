@@ -34,6 +34,6 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: user-mgmt
+          app-name: CloudQuickPoCs-Web-app-service-07
           publish-profile: ${{ secrets.azureWebAppPublishProfile }}
           package: '*.jar'
