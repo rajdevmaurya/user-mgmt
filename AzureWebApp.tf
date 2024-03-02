@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "appservice-rg" {
 
 # Create the App Service Plan
 resource "azurerm_app_service_plan" "service-plan" {
-  name                = "CloudQuickPoCs-Linux-service-plan-07"
+  name                = "user-mgmt"
   location            = azurerm_resource_group.appservice-rg.location
   resource_group_name = azurerm_resource_group.appservice-rg.name
   kind                = "Linux"
