@@ -1,6 +1,6 @@
 # Create a Resource Group
 resource "azurerm_resource_group" "appservice-rg" {
-  name     = "rg-cloudquickpocs"
+  name     = "CloudQuickPoCs-RG001"
   location = "East US"
   tags = {
     description = "POCs Demo"
