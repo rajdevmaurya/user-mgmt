@@ -1,8 +1,14 @@
-# ARM provider block
 provider "azurerm" {
-  version = ">= 2.96.0"
-  features {}
-}
+      features {}
+    }
+    terraform {
+      required_providers {
+        azurerm = {
+          source  = "hashicorp/azurerm"
+          version = "3.72.0"
+        }
+      }
+    }
 # Terraform backend configuration block -precreated
 terraform {
   backend "azurerm" {
