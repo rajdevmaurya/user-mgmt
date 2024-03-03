@@ -21,7 +21,7 @@ public class TutorialController {
   @Autowired
   private TutorialRepository tutorialRepository;
 
-  @GetMapping("/tutorials")
+  @GetMapping("/")
   public String getAll(Model model, @Param("keyword") String keyword) {
     try {
       List<Tutorial> tutorials = new ArrayList<Tutorial>();
