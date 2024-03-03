@@ -37,7 +37,7 @@ resource "azurerm_app_service" "app-service" {
   app_service_plan_id = azurerm_app_service_plan.service-plan.id
 
   site_config {
-    linux_fx_version = "JAVA|17"
+    linux_fx_version = "JAVA|1.8.0_312-1.8"
   }
 
   tags = {
